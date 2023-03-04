@@ -1,0 +1,16 @@
+USE meuDB;
+
+
+-- CREATE
+CREATE TABLE pessoas (
+	id INT NOT NULL AUTO_INCREMENT,
+	nome VARCHAR(50) NOT NULL, 
+	idade INT NOT NULL,
+	PRIMARY KEY(id)
+);
+
+-- ALTER
+ALTER TABLE pessoas ADD sexo VARCHAR(10) NOT NULL;
+
+-- DROP
+DROP TABLE pessoas;
